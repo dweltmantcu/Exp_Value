@@ -10,7 +10,7 @@ function startChat() {
     // Check if Marketing and Basic are selected
     if (marketingSelected && basicSelected) {
         // Make API call to ChatGPT-3.5 (you need to replace 'YOUR_API_KEY' and provide the actual endpoint)
-        const apiKey = 'YOUR_API_KEY';
+        const apiKey = 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;
         const endpoint = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
         // Build your prompt based on selected checkboxes

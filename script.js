@@ -1,5 +1,8 @@
 // script.js
 
+require('dotenv').config()
+const apiKey = process.env.API_KEY;
+
 function startChat() {
     // Get selected checkboxes
     const marketingSelected = document.getElementById("marketingCheckbox").checked;
@@ -10,7 +13,7 @@ function startChat() {
     // Check if Marketing and Basic are selected
     if (marketingSelected && basicSelected) {
         // Make API call to ChatGPT-3.5 (you need to replace 'YOUR_API_KEY' and provide the actual endpoint)
-        const apiKey = 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;
+        const apiKey = API_KEY;
         const endpoint = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
         // Build your prompt based on selected checkboxes

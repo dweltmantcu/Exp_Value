@@ -1,0 +1,12 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.checkbox-group {
+    margin-bottom: 10px; /* Add space between checkbox groups */
+}
+
+label {
+    margin-right: 10px; /* Add space between label and checkbox */
+}

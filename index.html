@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Simple Chatbot</h1>
     
-    <label>Category:</label>
-    <input type="checkbox" id="marketingCheckbox" value="Marketing"> Marketing
-    
-    <input type="checkbox" id="financeCheckbox" value="Finance"> Finance
-    
-    <br>
-    
-    <label>Difficulty:</label>
-    <input type="checkbox" id="basicCheckbox" value="Basic"> Basic
-    
-    <input type="checkbox" id="complexCheckbox" value="Complex"> Complex
-    
+    <div class="checkbox-group">
+        <label>Category:</label>
+        <input type="checkbox" id="marketingCheckbox" value="Marketing"> Marketing
+    </div>
+
+    <div class="checkbox-group">
+        <input type="checkbox" id="financeCheckbox" value="Finance"> Finance
+    </div>
+
+    <div class="checkbox-group">
+        <label>Difficulty:</label>
+        <input type="checkbox" id="basicCheckbox" value="Basic"> Basic
+    </div>
+
+    <div class="checkbox-group">
+        <input type="checkbox" id="complexCheckbox" value="Complex"> Complex
+    </div>
+
     <br>
 
     <button onclick="startChat()">Start Chat</button>
